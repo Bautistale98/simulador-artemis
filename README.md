@@ -33,4 +33,5 @@ mingw32-make      (en Linux: make)
 ## Registro de uso de IA
 | Fecha | Herramienta | Tarea | Consulta | Cómo se verificó / qué cambiamos |
 |---|---|---|---|---|
-| 09/11/2026 | Claude | Análisis de la consigna y propuesta de diseño | "Analizar el escenario 2 y proponer el diseño del simulador" | Lo revisó el grupo contra la consigna oficial |
+| 09/11/2026 | Claude | Dudas sobre la interpretación física del inciso d (dirección del pulso lateral y validez de la aproximación d = ½·a·Δt²) | Consulta sobre qué modelo usar para la desviación lateral y por qué | Lo contrastamos con la consigna oficial y con lo visto en Física I; el modelo lo elegimos como grupo |
+| 09/11/2026 | Claude | Armado del Makefile (compilar varios .c con gcc y enlazar math.h con -lm) y de la estructura base de archivos del repositorio | Consulta sobre cómo compilar un proyecto con varios archivos .c y .h | Revisamos que la estructura respete la sección 5.1 de la consigna; la compilación se verifica al cargar el código |
